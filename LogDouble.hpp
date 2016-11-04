@@ -12,28 +12,81 @@ class LogDouble {
     public:
     
         /**
-         * Addition
+         * LogDouble (constructor)
          */
+        LogDouble() {
+        
+        }
+    
+        /**
+         * LogDouble (explicit constructor)
+         *
+         * @param double input
+         */
+        explicit LogDouble(double input) {
+        
+        }
+    
+        /**
+         * + (operator)
+         * Addition of two LogDouble numbers.
+         *
+         * @param LogDouble leftSide
+         * @param LogDouble rightSide
+         * @return LogDouble
+         */
+        LogDouble operator +(LogDouble leftSide, LogDouble rightSide) {
+            
+        }
+    
+        /**
+         * - (operator)
+         * Substraction of two LogDouble numbers.
+         *
+         * @param LogDouble leftSide
+         * @param LogDouble rightSide
+         * @return LogDouble
+         */
+        LogDouble operator -(LogDouble leftSide, LogDouble rightSide) {
+            
+        }
+    
+        /**
+         * * (operator)
+         * Multiplication of two LogDouble numbers.
+         *
+         * @param LogDouble leftSide
+         * @param LogDouble rightSide
+         * @return LogDouble
+         */
+        LogDouble operator *(LogDouble leftSide, LogDouble rightSide) {
+        
+        }
+    
+        /**
+         * / (operator)
+         * Division of two LogDouble numbers.
+         * 
+         * @param LogDouble leftSide
+         * @param LogDouble rightSide
+         * @return LogDouble
+         */
+        LogDouble operator /(LogDouble leftSide, LogDouble rightSide) {
+        
+        }
     
     
         /**
-         * Substraction
+         * pow
+         * Returns base raised to the power of the exponent.
+         *
+         * @param LogDouble base
+         * @param LogDouble exponent
+         * @return LogDouble
          */
-    
-    
-        /**
-         * Multiplication
-         */
-    
-    
-        /**
-         * Division
-         */
-    
-    
-        /**
-         * Pow
-         */
+        LogDouble pow(LogDouble base, LogDouble exponent) {
+        
+        }
     
     
         /**
